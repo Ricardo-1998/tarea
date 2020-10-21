@@ -1,3 +1,17 @@
+body {
+  background-image: url(images/ab_back1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#my-content{
+  padding: 20px;
+  background-color: blue;
+  margin-left: 40%;
+  display: inline-block;
+}
+
+
 /* The navigation menu */
 .navbar {
     overflow: hidden;
@@ -47,7 +61,7 @@
     z-index: 1;
   }
   
-  /* Style the subnav links */
+  /* Style the subnav links */  
   .subnav-content a {
     float: left;
     color: white;
@@ -64,3 +78,28 @@
   .subnav:hover .subnav-content {
     display: block;
   }
+
+/* Footer*/
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#333;
+  color: white;
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.footer >div{
+  padding: 2%;
+}
+
+
