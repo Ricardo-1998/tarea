@@ -2,4 +2,15 @@
   
 @media only screen and (max-width: 468px){
     #my-content { visibility: hidden; }
+    #footer{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #footer >div{
+        padding: 0;
+    }
+
+    
 }
+
