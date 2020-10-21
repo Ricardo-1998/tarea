@@ -1,7 +1,9 @@
 
-  
+
+   
 @media only screen and (max-width: 468px){
-    #my-content { visibility: hidden; }
+    
+    #my-content { display:none; }
     #footer{
         flex-direction: column;
         justify-content: center;
@@ -10,7 +12,14 @@
     #footer >div{
         padding: 0;
     }
+    #Info{
+        flex-direction: column;
+    }
 
-    
+    #Info > div:nth-child(1){
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
 }
 
